@@ -6,7 +6,6 @@ terraform {
     }
   }
 
-{
   backend "azurerm" {
     resource_group_name  = "rg-staticsite"
     storage_account_name = "terraformmultiaz"
@@ -15,4 +14,4 @@ terraform {
   }
 }
 
-}
+
