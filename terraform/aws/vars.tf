@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  default = "mystaticsitekb"
+  default = "teste_multi_cloud"
 }
 
 variable "website_endpoint" {
