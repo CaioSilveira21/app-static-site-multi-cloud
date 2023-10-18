@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  default = "teste_multi_cloud2"
+  default = "testemulticloud3"
 }
 
 variable "website_endpoint" {
