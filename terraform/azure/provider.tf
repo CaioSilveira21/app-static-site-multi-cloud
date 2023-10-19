@@ -5,10 +5,9 @@ terraform {
       version = ">= 3.76.0"
     }
   }
+}
 
 provider "azurerm" {
   features {}
+  alias = "cloud"
 }
-
-}
-
